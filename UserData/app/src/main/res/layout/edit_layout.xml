@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter New Title"
+        android:id="@+id/edit_email"
+        android:layout_marginTop="72dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Update Title"
+        android:id="@+id/textView6"
+        android:layout_marginRight="10dp"
+        android:layout_alignBottom="@+id/edit_email"
+        android:layout_toStartOf="@+id/edit_email" />
+
+    <Button
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/update_btn"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/edit_email"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
